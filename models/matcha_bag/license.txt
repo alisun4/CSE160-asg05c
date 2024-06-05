@@ -1,0 +1,11 @@
+Model Information:
+* title:	Day 204: Everyday Matcha
+* source:	https://sketchfab.com/3d-models/day-204-everyday-matcha-3d9249d0828c44a2848f36969ff76bff
+* author:	uttamg911 (https://sketchfab.com/uttamg911)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Day 204: Everyday Matcha" (https://sketchfab.com/3d-models/day-204-everyday-matcha-3d9249d0828c44a2848f36969ff76bff) by uttamg911 (https://sketchfab.com/uttamg911) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Commercial Coffee Machine
+* source:	https://sketchfab.com/3d-models/commercial-coffee-machine-bab05bc7805d4b0dbc2cdcbb48441956
+* author:	M.Reslan (https://sketchfab.com/mreslan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Commercial Coffee Machine" (https://sketchfab.com/3d-models/commercial-coffee-machine-bab05bc7805d4b0dbc2cdcbb48441956) by M.Reslan (https://sketchfab.com/mreslan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
