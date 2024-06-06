@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tablet folder
+* source:	https://sketchfab.com/3d-models/tablet-folder-43976803a2b141c6b467408bda6f2ef7
+* author:	Arte Hexe (https://sketchfab.com/illusive_skarwing)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tablet folder" (https://sketchfab.com/3d-models/tablet-folder-43976803a2b141c6b467408bda6f2ef7) by Arte Hexe (https://sketchfab.com/illusive_skarwing) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

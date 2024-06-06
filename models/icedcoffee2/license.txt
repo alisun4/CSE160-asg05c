@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ice Coffee!
+* source:	https://sketchfab.com/3d-models/ice-coffee-9809e2893c7d4e9ebfca2d884c5e019f
+* author:	Kathryn Smith (https://sketchfab.com/kate.grace.smith)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ice Coffee!" (https://sketchfab.com/3d-models/ice-coffee-9809e2893c7d4e9ebfca2d884c5e019f) by Kathryn Smith (https://sketchfab.com/kate.grace.smith) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

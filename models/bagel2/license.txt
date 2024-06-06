@@ -1,0 +1,11 @@
+Model Information:
+* title:	Asiago Cheddar Bagel
+* source:	https://sketchfab.com/3d-models/asiago-cheddar-bagel-7b3adc650bed4a798e0f52f749f3bb68
+* author:	Ajchristian (https://sketchfab.com/Ajchristian)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Asiago Cheddar Bagel" (https://sketchfab.com/3d-models/asiago-cheddar-bagel-7b3adc650bed4a798e0f52f749f3bb68) by Ajchristian (https://sketchfab.com/Ajchristian) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cutaway view of a retractable pen (click pen)
+* source:	https://sketchfab.com/3d-models/cutaway-view-of-a-retractable-pen-click-pen-dd958716be0b4786b8700125eec618e5
+* author:	C. Yamahata (https://sketchfab.com/cyamahat)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cutaway view of a retractable pen (click pen)" (https://sketchfab.com/3d-models/cutaway-view-of-a-retractable-pen-click-pen-dd958716be0b4786b8700125eec618e5) by C. Yamahata (https://sketchfab.com/cyamahat) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

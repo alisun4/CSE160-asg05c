@@ -1,0 +1,11 @@
+Model Information:
+* title:	Scifi Novel
+* source:	https://sketchfab.com/3d-models/scifi-novel-1f8a6f18f19a487d81452ee59c1abbc3
+* author:	Blarb (https://sketchfab.com/Blarb)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Scifi Novel" (https://sketchfab.com/3d-models/scifi-novel-1f8a6f18f19a487d81452ee59c1abbc3) by Blarb (https://sketchfab.com/Blarb) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
