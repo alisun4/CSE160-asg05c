@@ -1,6 +1,16 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'; 
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
+
+const MANAGER = new THREE.LoadingManager();
+const DRACO_LOADER = new DRACOLoader(MANAGER).setDecoderPath(
+	`three/addons/libs/draco/gltf/`,
+);
+const KTX2_LOADER = new KTX2Loader(MANAGER).setTranscoderPath(
+	`three/addons/jsm/libs/basis/`,
+);
 
 function main() {
 
@@ -10,7 +20,7 @@ function main() {
 	
 	// Source for next two lines: ChatGPT
 	renderer.setSize(window.innerWidth, window.innerHeight);
-	renderer.setPixelRatio(window.devicePixelRatio);
+	renderer.setPixelRatio(window.devicePixelRatio * 2);
 	renderer.outputEncoding = THREE.sRGBEncoding;
     renderer.shadowMap.enabled = true;
 	renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -120,9 +130,9 @@ function main() {
 	}
 
     // Models
+	const gltfLoader = new GLTFLoader(MANAGER).setDRACOLoader(DRACO_LOADER).setKTX2Loader(KTX2_LOADER.detectSupport(renderer));
 
 	{	// Cat
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/sleepycat/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(60, 60, 60);
 			gltf.scene.position.set(15, 5.1, -50);
@@ -149,7 +159,6 @@ function main() {
     }
 
 	{	// bagel
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/bagel2/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(50, 50, 50);
 			gltf.scene.position.set(-5, 4.6, -40);
@@ -176,7 +185,6 @@ function main() {
 	}
 
 	{	// Toast
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/toast/scene.gltf', (gltf) => {
 			gltf.encoding = THREE.sRGBEncoding;
 			gltf.scene.scale.set(80, 80, 80);
@@ -204,7 +212,6 @@ function main() {
 	}
 
 	{	// Coffee cup
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/coffee_cup/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(70, 70, 70);
 			gltf.scene.position.set(10, 5.445, 10);
@@ -231,7 +238,6 @@ function main() {
     }
 
 	{	// Newspaper
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/folded_newspaper/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(0.9, 0.9, 0.9);
 			gltf.scene.position.set(20, 2.8, -10);
@@ -259,7 +265,6 @@ function main() {
     }
 
 	{	// Folder
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/folder/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(0.7, 0.7, 0.7);
 			gltf.scene.position.set(-20, 3, -50);
@@ -287,7 +292,6 @@ function main() {
     }
 
 	{	// Pastry plate
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/pastries/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(20, 20, 20);
 			gltf.scene.position.set(-5, 5.1, 50);
@@ -314,7 +318,6 @@ function main() {
 	}
 
 	{	// Coffee cake
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/coffee_cake/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(2, 2, 2);
 			gltf.scene.position.set(27, 2.1, -1);
@@ -342,7 +345,6 @@ function main() {
 
 	
 	{	// Iced coffee
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/icedcoffee2/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(70, 70, 70);
 			gltf.scene.position.set(-15, -17.58, -38);
@@ -369,7 +371,6 @@ function main() {
     }
 
 	{	// mac
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/mac/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(80, 80, 80);
 			gltf.scene.position.set(20, 3, 40);
@@ -397,7 +398,6 @@ function main() {
     }
 
 	{	// Pen
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/pen/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(0.5, 0.5, 0.5);
 			gltf.scene.position.set(-20, 2.8, 60);
@@ -425,7 +425,6 @@ function main() {
 	}
 
 	{	// Novel
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/novel/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(100, 100, 100);
 			gltf.scene.position.set(-20, 2.6, 27);
@@ -453,7 +452,6 @@ function main() {
 	}
 	
 	{	// Coffee cup blue
-		const gltfLoader = new GLTFLoader();
 		gltfLoader.load('models/coffee_cup_with_plate/scene.gltf', (gltf) => {
 			gltf.scene.scale.set(70, 70, 70);
 			gltf.scene.position.set(20, 2.6, 60);
