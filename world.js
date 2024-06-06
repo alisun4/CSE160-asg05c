@@ -4,6 +4,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
 
+// Source: Jacob's tutoring hours
 const MANAGER = new THREE.LoadingManager();
 const DRACO_LOADER = new DRACOLoader(MANAGER).setDecoderPath(
 	`three/addons/libs/draco/gltf/`,
@@ -50,11 +51,7 @@ function main() {
 		texture.repeat.set(repeats, repeats);
 
 		const planeGeo = new THREE.BoxGeometry(70, planeThickness, planeSize);
-		// const planeMat = new THREE.MeshPhongMaterial({
-		// 	map: texture,
-		// 	side: THREE.DoubleSide,
-		// });
-		const planeMat = new THREE.MeshStandardMaterial( {
+		const planeMat = new THREE.MeshPhongMaterial({
 			map: texture,
 			side: THREE.DoubleSide,
 		});
@@ -130,6 +127,8 @@ function main() {
 	}
 
     // Models
+	// Source: Jacob's tutoring hours, Kitty Playground, and ChatGPT
+
 	const gltfLoader = new GLTFLoader(MANAGER).setDRACOLoader(DRACO_LOADER).setKTX2Loader(KTX2_LOADER.detectSupport(renderer));
 
 	{	// Cat
